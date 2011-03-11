@@ -1,0 +1,34 @@
+pVIM: 一个便携的、配置了强大火力的VIM。 
+http://code.google.com/p/portable-vim/
+
+
+# 中文字符支持，消除乱码问题，默认使用UTF-8编码
+# 支持C、C++和Python，语法高亮和自动补齐
+# IDE视图，ctag/taglist/cscope，编辑-编译-调试
+# 文档正在不断完善中。 
+
+# 带有众多Vim插件，
+# c-support.vim / omni-cpp-complete.vim / supertab.vim / snippetsEmu.vim 等
+
+
+#分布的配置文件，便于维护使用和持续改进：
+.
+├── vimrc 
+├── rc_files/
+       ├── appearance.vimrc
+       ├── auto_complete.vimrc
+       ├── buffer.vimrc
+       ├── c_cpp.vimrc
+       ├── cscope.vimrc
+       ├── folding.vimrc
+       ├── general.vimrc
+       ├── hot_key.vimrc
+       ├── ohters.vimrc
+       ├── paltform.vimrc
+       ├── plugin.vimrc
+       ├── python.vimrc
+       ├── search.vimrc
+       ├── text_tab.vimrc
+       └── vimgdb.vimrc
+
+2011.3.10
