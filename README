@@ -11,10 +11,18 @@ http://code.google.com/p/portable-vim/
 # c-support.vim / omni-cpp-complete.vim / supertab.vim / snippetsEmu.vim 等
 
 
-#分布的配置文件，便于维护使用和持续改进：
+#   文件分布图：
 .
-├── vimrc 
-├── rc_files/
+├── after/      插件目录
+├── autoload/   插件目录
+├── BUGS
+├── colors/         
+├── c-support/  插件c-support
+├── doc/
+├── ftplugin/   插件目录
+├── misc/
+├── plugin/     插件目录
+├── rc_files/   *配置文件目录*
        ├── appearance.vimrc
        ├── auto_complete.vimrc
        ├── buffer.vimrc
@@ -30,5 +38,8 @@ http://code.google.com/p/portable-vim/
        ├── search.vimrc
        ├── text_tab.vimrc
        └── vimgdb.vimrc
+├── README
+├── syntax/
+└── vimrc       顶级配置文件
 
 2011.3.10
